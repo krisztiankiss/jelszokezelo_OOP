@@ -26,7 +26,7 @@ namespace jelszokezelo_v1
         // Admin felhasználó autentikációja
         private void bt_bejelentkezes_Click(object sender, EventArgs e)
         {
-            bool siker = true;
+            bool siker = false;
              
             if (tb_felhasznalonev.Text.Equals("admin") && tb_jelszo.Text.Equals("admin")) { siker = true; }
 
